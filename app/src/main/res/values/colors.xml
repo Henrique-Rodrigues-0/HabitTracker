@@ -1,0 +1,14 @@
+<resources>
+    <color name="purple_500">#6200EA</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="background_color">#F8F8F8</color>
+    <color name="button_color">#03A9F4</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="list_item_background">#FFFFFF</color>
+    <color name="list_item_text">#333333</color>
+    <!-- Adicionando cores básicas -->
+    <color name="white">#FFFFFF</color>
+    <color name="teal_700">#00796B</color>
+    <color name="black">#000000</color>
+</resources>

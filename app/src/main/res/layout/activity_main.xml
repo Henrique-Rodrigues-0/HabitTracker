@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HabitTracker"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/habitInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira um novo hábito"
+        android:backgroundTint="@color/purple_500"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/list_item_text"
+        android:textColorHint="#999999" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADICIONAR HÁBITO"
+        android:backgroundTint="@color/button_color"
+        android:textColor="@color/button_text_color"
+        android:padding="12dp"
+        android:textAllCaps="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:background="@color/background_color" />
+</LinearLayout>
+
